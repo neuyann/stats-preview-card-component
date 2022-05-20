@@ -96,13 +96,13 @@ p{
   
 }
 
-#numbers2{
+.numbers2{
   color: white;
   font-size: 18px;
   font-weight: bold;
 }
 
-#numbers3{
+.numbers3{
   color: var(--var-slightly-trans-stat);
   font-size: 10px;
   text-transform: uppercase;
@@ -128,10 +128,10 @@ p{
 .container{
   margin: auto;
   width: 230px;
-  height: 550px;
+  height: 580px;
   background-color: white;
   display:flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   border-radius: 7px;
 }
   .rightContainer{
@@ -155,8 +155,9 @@ p{
 
 .leftContainer{
   width: 100%;
-  height: 100%;
-  margin: 0;
+  height: 70%;
+  margin-top: 0;
+  padding: 25px;
    background-color: var(--var-dark-satured-blue);
   font-family: Inter;
   border-radius: 0 0 5px 5px;
@@ -167,33 +168,34 @@ h1{
   color: white;
   font-size: 19px;
   text-align: center;
-  margin: 25px 20px 15px 20px;
 }
 
 #insights{
   color: var(--var-soft-violet);
 }
 
-p{
+p {
   font-size: 11px;
   line-height: 1.6;
   color: var(--var-slightly-trans-main);
   text-align: center;
-margin: 15px;}
+  margin: 10px 0 10px 0;
+  }
 
 .container-numbers{
   display: flex;
   flex-direction: column;
   text-align: center;
   line-height: 1.2;
-  margin: 20px;}
+  margin: 20px;
+  }
 
 .companies{
   margin:10px;
 }
 
 .templates{
-  margin:10px;  
+  margin:10px;
 }
 
 .queries{
